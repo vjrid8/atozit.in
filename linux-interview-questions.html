@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Linux Interview Questions and Answers,Linux interview pdf</title>
+    <meta name="description" content="Linux Interview Questions and Answers asked by different companies like Wipro Google TC Infosys Cogziant Intel capgemini">
+    <meta name="keywords" content="Linux interview questions and answers, linux interview by wipro, linux interview by Google, Linux Interview by TCS, Linux Interview by Capgemini">
+    <meta name="robots" content="index, follow">
+    <meta name="copyright" content="atozit.in 2012-2019">
+    <meta name="language" content="EN">
+    <meta name="author" content="Best linux training in hyderabad">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900"
+      rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="site-wrap">
+      <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3"> <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom top-bar py-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-0"> <span class="mr-3"><strong>Phone:</strong> <a href="tel://#">+91
+                    9390-999-614</a></span> <span><strong>Email:</strong> <a href="#">info@itjunction.in</a></span>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <ul class="social-media">
+                <li><a href="https://www.facebook.com/atozit.in.1" class="p-2"><span class="icon-facebook"></span></a><br>
+                </li>
+                <li><a href="https://twitter.com/AtozitI" class="p-2"><span class="icon-twitter"></span></a><br>
+                </li>
+                <li><a href="https://www.instagram.com/atozit.in/" class="p-2"><span class="icon-instagram"></span></a><br>
+                </li>
+                <li><a href="https://www.linkedin.com/in/atozit-in-518849192/" class="p-2"><span class="icon-linkedin"></span></a><br>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="site-navbar py-4 bg-white" role="banner">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-11 col-xl-2"><a href="http://itjunction.in"> <img src="images/itjunction3.png"
+                  alt="logo"
+                  title="itjunction logo webdesign mac repair hyderabad"
+                  style="width: 140px; height: 108px;">
+                <br>
+              </a></div>
+            <a href="http://itjunction.in"> </a>
+            <div class="col-12 col-md-10 d-none d-xl-block"><a href="http://itjunction.in"></a><a
+                href="http://itjunction.in">
+              </a>
+              <nav class="site-navigation position-relative text-right" role="navigation"><a
+                  href="http://itjunction.in">
+                </a>
+                <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <a href="http://itjunction.in"> </a>
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li class="has-children"> <a href="services.html">Services</a>
+                    <ul class="dropdown">
+                      <li><a href="webdesign.html">Web Design</a></li>
+                      <li><a href="seo.html">SEO & Digital Marketing</a></li>
+                      <li><a href="itservices.html">IT Services</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="training.html">Training</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="site-wrap" style="margin-left: 120px; text-align: left;">
+      <h5>Linux Interview Questions and Answers</h5>
+      <p>Some Linux Commands and Tips:</p>
+      <ul>
+        <li>yes command to repeatedly print a character or string until you
+          break. ex: yes test</li>
+        <li>Replace a string starting between group of characters like tcp://
+          and .com with another URI.<br>
+          sed -i
+          's/tcp:\/\/.*com/tcp:\/\/b2ce28191781d11e795250a0afdfb204-1579818744.us-east-1.elb.amazonaws.com/g'
+          test.txt</li>
+        <li>scp vs rsync: scp cannot resume the copy process ones it fails, but
+          rsync can resume the process</li>
+        <li>check default run-level: cat /etc/inittab or use who -r command</li>
+        <li>File permissions for a pirticular user: setfacl -m u:username:permissions filename</li>
+        <li>Command to check running services: netstat -anultp or port number</li>
+        <li>To find gateway IP address, use netstat -nr or route -N commands</li>
+        <li>To find the package name if command is not found, to query the package name in linux,use "yum provides */commandname</li>
+        <li>What is nfs hard mount and soft mount</li>
+        <li>lsof is the command used to list open files</li>
+        <li>rpm2cpio is the command to extract RPM</li>
+        <li>Remount a read only partition as RW: remount -o rw,remount /</li>
+        <li>Password expire information can be found using: chage -l uname </li>
+        <li>Recover a user if the user is deleted by mistake: use pwunconv ;creates users as per /etc/passwd and deletes /etc/shadow</li>
+        <li>Password never expire can be set to a user using: passwd -x -1 uname</li>
+        <li>fuser -cu is the command to list all users and fuser -ck uname command to kill all login sessions</li>
+        <li>Disable remote root login using /etc/sshd/sshd_config file by setting RootLogin no</li>
+        <li>getenforce and setenforce are selinux commands to get/set selinux status</li>
+        <li>semanage -user -l is the command to list selinux users</li>
+        <li>Query a thirdparty owned package using rpm -qi pkgname</li>
+        <li>To reboot a linux host, we can use commands: reboot or shutdown -r or init 6</li>
+        <li></li>
+        <li>Find files which have been accessed within last 30 days: find /
+          -type f -atime -30 &gt; December.files </li>
+        <li>8. Audit logs-AUDITCTL,AUSEARCH,aureport;yum install audit;ntsysv is
+          the command to autostart audit during booting.<br>
+          Auditctl -w /etc/passwd -p war -k password-file</li>
+        <li>ausearch -f &lt;filename&gt; is the command to get the details of
+          file who accessed or modified it.</li>
+        <li>fuser -mvk /home is the command to find the file which is locking
+          the filesystem to unmount it.</li>
+        <li>LUKS(Linux Unified Key Setup) is the encryption in RHEL.—get expert
+          on this</li>
+        <li>Linux events can be tracked by running syslogd daemon. it generates
+          log file /var/log/syslog</li>
+        <li>restrict or allow IPs using hosts.deny and hosts.allow files</li>
+        <li>ctrl+alt+backspace will forcibly kills the GUI on linux if the
+          commad service gdm stop didnt work</li>
+        <li>find and delete all tar files in a directory=&gt; find /home name
+          “*.tar” | xargs rm rf</li>
+        <li>slocate will search for files that user has access and locate will
+          search for all files</li>
+        <li>find a string in current directory using find command
+          recursively=&gt; find -name ‘*.txt” | xargs grep “string”</li>
+        <li>wall command is used to broadcast a message to all users who logged
+          in</li>
+        <li>hardlink cannot be created for directories and is only for files.
+          Soft link can be created for files and directories. When original file
+          is deleted when it has hard link, the file is intact. but when
+          softlink is created and original file is deleted, it will be deleted
+          and cannot be retrieved.</li>
+        <li>we can install mutt to send attachments from the commandline using
+          smtp.</li>
+        <li>Process states from the output of top command are: RUNNING(R),
+          STOPPED(T), SLEEPing/WAITing-Interruptable(S), UNINTERRUPTABLE(D), and
+          Zombie (Z).</li>
+        <li>Linux cache can be dropped using "echo 1 &gt;
+          /proc/sys/vm/drop_caches</li>
+        <li>finger server acts as both web and ftp server</li>
+        <li>Sar collects, reports, or saves system activity information, sar
+          serves to log and evaluate a variety of information regarding system
+          activity. With performance problems, sar also permits retroactive
+          analysis of the load values for various sub-systems (CPUs, memory,
+          disks, interrupts, network interfaces and so forth) and limitation of
+          problems in this manner. If CPU utilization is near 100 % (user + nice
+          + system), the workload sampled is CPU-bound.By default, log files of
+          Sar command is located at /var/log/sa/sadd file, where dd parameter
+          indicates the current day.</li>
+        <li>cat /proc/net/bonding/bond0 is the file used to identiy by network
+          bonding, which mode is used and interfaces involved in bonding.</li>
+        <li>/etc/shadow file is readable by only root user</li>
+        <li>cron min. granularity is minute while anacron is day and cron can be
+          sheduled by any user, while anacron is only scheduled by super user</li>
+        <li>pwconv command create /etc/shadow file and place ‘x’ in the password
+          field of /etc/passwd file</li>
+        <li>/bin/false shell is configured for pop3 account user</li>
+        <li>chkconfig --list is the command to list the services enabled at each
+          run level</li>
+        <li>Use zcat to check the files inside a compressed file without
+          uncompressing it. #zcat -f &lt;xyz.tar.gz&gt;</li>
+        <li>Start syslogd daemon to get the logs in /var/log/syslog file</li>
+        <li><br>
+        </li>
+      </ul>
+      <p>1. <strong><span style="color: #941100;">What is chattr command</span></strong></p>
+      <p style="width: 905px;">chattr is a command line utility used to change
+        the attributes of a file in Linux systems to secure a file from
+        accidental deletions or modification of important files or folders, even
+        though you are logged in as root.</p>
+      <p style="width: 905px;">Syntax: chattr [operator] [flags]
+        &lt;filename&gt;</p>
+      <table style="width: 989px; height: 363px;" border="1">
+        <tbody>
+          <tr>
+            <th style="background-color: #73fa79; text-align: inherit;"><strong>Attribute<br>
+              </strong></th>
+            <th style="background-color: #73fa79; text-align: inherit; width: 852px;"><strong>Description<br>
+              </strong></th>
+          </tr>
+          <tr>
+            <td><strong>A<br>
+              </strong></td>
+            <td>If set atime record is not updated</td>
+          </tr>
+          <tr>
+            <td><strong>S<br>
+              </strong></td>
+            <td>If set changes are updated synchronously on the disk</td>
+          </tr>
+          <tr>
+            <td><strong>a<br>
+              </strong></td>
+            <td>If set can only be open in append mode for writing</td>
+          </tr>
+          <tr>
+            <td><strong>i<br>
+              </strong></td>
+            <td>i means immutable. no renaming, no symbolic link creation,not
+              executable, not writable. only super user can unset this</td>
+          </tr>
+          <tr>
+            <td><strong>j<br>
+              </strong></td>
+            <td>If set, all of its information updated to the ext3 journal
+              before being updated to the file itself</td>
+          </tr>
+          <tr>
+            <td><strong>t<br>
+              </strong></td>
+            <td>if set, no tail-merging</td>
+          </tr>
+          <tr>
+            <td><strong>d<br>
+              </strong></td>
+            <td>if set, its no more candidate for backup when the dump process
+              is run</td>
+          </tr>
+          <tr>
+            <td><strong>u<br>
+              </strong></td>
+            <td>undelete. if set, if the file is deleted,its data are saved</td>
+          </tr>
+          <tr>
+            <td>+ operator</td>
+            <td>sets the flag</td>
+          </tr>
+          <tr>
+            <td>- operator</td>
+            <td>unsets the flag</td>
+          </tr>
+          <tr>
+            <td>= operator</td>
+            <td>keeps the current flag</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="width: 905px;"><br>
+      </p>
+      <p style="width: 905px;">2. <strong><span style="color: #941100;">SUID/GUID
+            bit vs Sticky bit</span></strong></p>
+      <p style="width: 905px;">SUID- Set User IDentification</p>
+      <p style="width: 964px;">For example, thought of how a normal(non-root)
+        user can change his own password when he doesn't have write permission
+        to the shadow file? to check this verify the permission of <span style="color: #011993;">/usr/bin/passwd</span>
+        command.</p>
+      <p style="width: 964px;"># ls -lrt /usr/bin/passwd<br>
+        -r-sr-sr-x&nbsp;&nbsp; 1 root&nbsp;&nbsp;&nbsp;&nbsp;
+        sys&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31396 Jan 20&nbsp; 2014
+        /usr/bin/passwd<br>
+        <br>
+        # chmod u+s file1<br>
+        View the permissions using the ls -l command:<br>
+        # ls -l file1<br>
+        -rwSrw-r-- 1 user1 user1 0 2017-10-29 21:41 file1<br>
+        Note the capital S. This means there are no execute permissions. Run the
+        following command to add execute permissions to the file1 file, noting
+        the lower case s.<br>
+        # chmod u+x file1<br>
+        # ls -l file1<br>
+        -rwsrw-r-- 1 user1 user1 0 2017-10-29 21:41 file1</p>
+      <p style="width: 964px;"><strong>STICKY BIT:</strong></p>
+      <p style="width: 964px;">Sticky bit is set on folders where its contents
+        should not be deleted even though every one has write permissions.
+        Sticky bit is used where everyone has write permissions to a folder, but
+        no one can delete other’s data except the owner who create the folder or
+        root. Can be set to a file or folder. When set , only owner can delete
+        the file/folder regardless of permissions.</p>
+      <p style="width: 964px;">t=sticky bit with execute permission</p>
+      <p style="width: 964px;">T=sticky bit without execute permission</p>
+      <p style="width: 964px;">Ex: chmod 1757 /opt/dump/<br>
+        chmod o+t /opt/dump/<br>
+        or<br>
+        chmod +t /opt/dump/<br>
+        <br>
+        I am seeing “T” ie Capital s in the file permissions, what’s that?<br>
+        After setting Sticky Bit to a file/folder, if you see ‘T’ in the file
+        permission area that indicates the file/folder does not have executable
+        permissions for all users on that particular file/folder.</p>
+      <p style="width: 964px;">3. <strong><span style="color: #941100;">Enable
+            fsck on each boot. how will you set this</span></strong></p>
+      <p style="width: 964px;">/etc/fstab is the file, where flag is set to do
+        fsck on each boot. 5th field is dump and <strong>6th field is fsck</strong>.</p>
+      <p style="width: 964px;">cat /etc/fstab</p>
+      <p style="width: 964px;">UUID=xyz&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp;
+        ext4&nbsp;&nbsp;&nbsp; defaults&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; <strong>0</strong></p>
+      <p style="width: 964px;">4. <strong style="color: #941100;">Linux
+          Patching - How to do</strong></p>
+      <p style="width: 964px;">Linux patching involves 3 phases. they are 1)
+        precautions 2)Pre-check and 3) Post-checks</p>
+      <p style="width: 964px;">Exclude a package during upgrade:</p>
+      <ul>
+        <li>rpm -X &lt;pkg name&gt; update</li>
+        <li>yum -x mysql -x httpd update</li>
+        <li>yum -x mysql,httpd update</li>
+        <li>yum -x kernel* update</li>
+        <li>or update the file/etc/yum.conf to exclude the packages php* ,
+          kernel* and httpd, add line like: exclude=php* kernel* httpd</li>
+      </ul>
+      <p style="width: 964px;">Roll back an update</p>
+      <ul>
+        <li>yum history will give you all the changes/updates made</li>
+        <li>yum history undo will undo the changes</li>
+        <li>yum downgrade &lt;package name&gt;</li>
+        <li>yum history list all</li>
+        <li>yum history info</li>
+        <li>rpm -Uvh --oldpackage &lt;package name&gt;</li>
+      </ul>
+      <p>4. <strong style="color: #941100;">What is zombie process and how will
+          you check if there is any zombie process</strong></p>
+      <p>Zombie process is a process which doesn't have parent process to it. To
+        get the zombie processes in a system, use ps command. If you do <strong><span
+            style="color: #5e5e5e;">ps
+            -aux |grep defunct</span></strong> or <strong><span style="color: #941751;">ps
+            -aux | grep Z</span></strong> will lists the zombie processes.</p>
+      <p style="width: 964px;">5. <strong style="color: #941100;">What is
+          dmidecode command! How will you find whether given machine is physical
+          or virtual</strong></p>
+      <p style="width: 964px;">dmidecode command gives you hardware information
+        in human readable format. DMIdecode stands for Desktop Management
+        Interface table decoder. dmidecode will displays different information
+        related to all hardware around 19 types</p>
+      <p style="width: 964px;"><strong>dmidecode -t system</strong> is the
+        command to check whether a machine is physical or virtual. system is a
+        keyword. The other keywords are: bios, system, baseboard, chasis,
+        processor, memory, cache, connector, slot</p>
+      <p style="width: 964px;">6. <strong style="color: #941100;">Explain about
+          Linux boot process</strong></p>
+      <p style="width: 964px;">There are 6 stages during Linux boot process.</p>
+      <ol>
+        <li>BIOS : Checks system integrity, searches, loads and executes boot
+          loader program from HDD/Floppy/CD/USB. Then the control is given to
+          boot loader(MBR) for further process</li>
+        <li>MBR: It is located in the first sector of the bootable disk. MBR is
+          less than 512 bytes. It contains information about GRUB/LILO boot
+          loaders. So MBR loads and executes the GRUB boot loader</li>
+        <li>GRUB: GRand Unified Bootloader. It lists all the kernel images
+          available and default can be set. Configuration file is:
+          /boot/grub/grub.conf and /etc/grub.conf is link to this file. It
+          contains information about Kernel and initrd images</li>
+        <li>Kernel: Mounts the root file system as mentioned in grub.conf as
+          root= and execute /sbin/init process which is a parent process to all
+          in Linux. So it has the process ID of 1 in ps output. initrd stands
+          for Initial RAM Disk, which is used by kernel as temporary root file
+          system until kernel is booted and the real root file system is
+          mounted. It also contains necessary drivers required to access
+          harddisk partitions and other hardware.</li>
+        <li>Init: the parent process. Which looks at /etc/inittab file to decide
+          the run level(0halt,1singleuser,2multiuser without nfs,3full
+          multiuser,4unused, 5X11 and 6reboot). Default run level is defined as
+          initdefault in /etc/inittab</li>
+        <li>Runlevel: /etc/rc.d/rcx.d is the directory for each run level x.
+          inside these directories there are programs start with S or K which
+          denotes the programs starting/killing during startup/shutdown in the
+          order(sNsendmail - means start sendmail at N sequence).</li>
+      </ol>
+      <p>7. <strong style="color: #941100;">LVM (Logical Volume Management) How
+          to</strong></p>
+      <ul>
+        <li>256 volume groups can be created</li>
+        <li>LV size can be increased on fly without unmounting it</li>
+        <li>But to reduce the size, we have to unmount first, then reduce the
+          filesystem; resize2fs and then mount back the partition</li>
+        <li>pvscan command is used to scan newly added disk or LUN in LVM</li>
+        <li>lvscan is used to scan logical volume from existing volume group</li>
+        <li>Disable a LV using "lvchange -an &lt;lvname&gt;" and enable a LV
+          using "lvchange -ay &lt;lvname&gt;"</li>
+        <li>Disable a VG using "vgchange an &lt;vgname&gt; and enable it using
+          "vgchange -ay &lt;vgname&gt;"</li>
+        <li>"lvs -a -o +devices" is the command used to display the disks in LV
+          mirroring</li>
+        <li>PVS,VGS and LVS are the command used to display about physical
+          disks, volume groups and logical volumes</li>
+        <li>pvdisplay, vgdisplay and lvdisplay are the commands used to display
+          detailed information</li>
+        <li>LVM1 snapshots are readonly by default, but LVM2 snapshots are
+          Read/Write</li>
+        <li>If /proc/misc file contains string like "device-mapper" means device
+          mapper is installed on that system</li>
+        <li>LV max size for 2.6 kernel is 16TB for 32-bit and 8EB for 64 bit
+          machines</li>
+        <li>If you want to remove a disk/device from a VG, use "vgreduce
+          &lt;vgname&gt; &lt;diskpath&gt;" and to add a new disk to the VG, use
+          "vgextend &lt;vgname&gt; &lt;disktobeadded&gt;</li>
+        <li>SWAP-82, RAID-fd and LVM-8e are the partition numbers</li>
+        <li>lvmdump is the command used to collect troubleshooting information</li>
+        <li>Default backup location is /etc/lvm/backup and "vgcfgbackup
+          &lt;vgname&gt;" is the command to take VG config backup.</li>
+        <li>Its possible to rename a VG, but it will be affected only when its
+          remounted. also need to update /etc/fstab accordingly.</li>
+      </ul>
+      <p><strong>LVM Extend process:</strong></p>
+      <ul>
+        <li>Add partition with 8e</li>
+        <li>fdisk -l</li>
+        <li>pvcreate /dev/sda1</li>
+        <li>pvs</li>
+        <li>vgextend &lt;vgname&gt; /dev/sda1</li>
+        <li>vgs</li>
+        <li>pvscan</li>
+        <li>lvdisplay</li>
+        <li>vgdisplay</li>
+        <li>lvextend -l +4607 /dev/vgname/lvname</li>
+        <li>resize2fs /dev/vgname/lvname</li>
+      </ul>
+      <p><strong>LVM Reduce Process: </strong>(use PE or +/- G during extend or
+        reduce)</p>
+      <ul>
+        <li>Unmount the file system</li>
+        <li>check the fs</li>
+        <li>Reduce FS</li>
+        <li>Reduce LV</li>
+        <li>recheck FS</li>
+        <li>remount FS</li>
+        <li>resize2fs /dev/vgname/lvname 10G</li>
+        <li>lvreduce -L -8G lvname</li>
+        <li>lvdisplay</li>
+      </ul>
+      <p>8. <strong style="color: #941100;">Create a local yum repository on
+          server and configure the client</strong></p>
+      <ul>
+        <li>Create a local directory for the repo like "mkdir
+          /var/www/html/repo"</li>
+        <li>There are 2 ways to create a repo:</li>
+        <ul>
+          <li>reposync -p /var/www/html/repo -r &lt;repoID&gt; -l</li>
+          <li>createrepo /var/www/html/repo</li>
+        </ul>
+        <li>Start apache and confirm access to the files:</li>
+        <ul>
+          <li>wget http://localhost/repo/repomod.xml</li>
+          <li>wget http://fqdn/repo/repomod.xml</li>
+        </ul>
+        <li>To update the existing repo, add rpm files and run:</li>
+        <ul>
+          <li>createrepo --update /var/www/html/repo</li>
+        </ul>
+        <li>Before seeing updates on the clients, you may need to:</li>
+        <ul>
+          <li>rm -rf /var/cache/yum/*</li>
+          <li>yum clean all</li>
+        </ul>
+        <li>Client Configuration:</li>
+        <ul>
+          <li>yum-config-manager --add-repo http://fqdn --enable-repo</li>
+        </ul>
+      </ul>
+      <p>9. <strong style="color: #941100;">NFS</strong></p>
+      <ul>
+        <li>NFS runs on port 2049/TCP</li>
+        <li>Current version is NVSv4</li>
+        <li>ACLs</li>
+        <li>Statefull Ops</li>
+        <li>Services: NFS , NFS/rpcbind/xinetd</li>
+        <li>/etc/exports =&gt; to share the directories</li>
+        <li>/etc/sysconfig/nfs =&gt; fix ports</li>
+        <li>pNFS =&gt; Parallel NFS for performance gain</li>
+        <li>nfsstat -o all</li>
+      </ul>
+      <p style="width: 964px;">10. <strong style="color: #941100;">Multipath
+          I/O</strong></p>
+      <p style="width: 964px;">Multipath is usefull to overcome single point
+        failures. Multipathing ensures that the system uses multiple physical
+        paths to provide redundancy and increased throughput. There are many
+        vendor specific multipathing implementations like EMC's powerpath and
+        Symantec's VxDMP.</p>
+      <p style="width: 964px;">Device Mapper Multipathing is a Linux native
+        multipath tool to configure multiple I/O paths between server nodes and
+        storage arrays into a single device. These I/O paths are physical SAN
+        connections that can include separate cables, switches and controllers.</p>
+      <ul>
+        <li>Check whether device mapper is installed or not using #rpm -qs |
+          grep device-mapper</li>
+        <li>Check the modules loaded using: #lsmod | grep dm_multipath</li>
+        <li>Check configuration file at: /etc/multipath.conf</li>
+        <li>Check whether the service is running or not: #
+          /etc/init.d/multipathd status</li>
+        <li>Check if there are any devices listed using: #multipath -v2 (or)
+          #multipath -ll</li>
+      </ul>
+      <p>11. <strong style="color: #941100;">Network Bonding</strong></p>
+      <p>network bonding is a feature of kernel where we can aggregate muliple
+        network adapters into single virtual adapter or interface which can
+        increase availability and throughput. There are seven modes starting
+        from 0 to 6; 0 is round robin and 1 is active-backup..Following are the
+        files involved during network bonding. *
+        /etc/sysconfig/network-scripts/ifcfg-bond0;
+        /etc/modprobe.d/bonding.conf;
+        /etc/sysconfig/network-scripts/ifcfg-eth[0-4]; and
+        /proc/net/bonding/bond0<br>
+        &nbsp;&nbsp;&nbsp; How many IP addresses are need for NIC bonding<br>
+        &nbsp;&nbsp;&nbsp; Steps: cd /etc/sysconfig/network-scripts<br>
+        &nbsp;&nbsp;&nbsp; ifconfig to list the IPs<br>
+        &nbsp;&nbsp;&nbsp; Create a bonding interface ifcfg-bond0 in the
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; above path<br>
+        &nbsp;&nbsp;&nbsp; DEVICE=bond0<br>
+        &nbsp;&nbsp;&nbsp; IPADDR=192.168.1.25<br>
+        &nbsp;&nbsp;&nbsp; NETMASK=255.255.255.0<br>
+        &nbsp;&nbsp;&nbsp; GATEWAY=192.168.1.1<br>
+        &nbsp;&nbsp;&nbsp; BONDING_OPTS=“mode=1 miimon=100” (miimon is polling
+        interval. here its 100ms)<br>
+        &nbsp;&nbsp;&nbsp; BOOTPROTO=none<br>
+        <br>
+        &nbsp;&nbsp;&nbsp; Now modify slaves.i.e the interfaces participating in
+        this bond.<br>
+        <br>
+        vi ifcfg-eth0<br>
+        DEVICE=eth0<br>
+        TYPE=Ethernet<br>
+        ONBOOT=yes<br>
+        NM_CONTROLLED=no<br>
+        BOOTPROTO=none<br>
+        MASTER=bond0<br>
+        SLAVE=yes<br>
+        <br>
+        vi ifcfg-eth1<br>
+        <br>
+        DEVICE=eth1<br>
+        TYPE=Ethernet<br>
+        ONBOOT=yes<br>
+        NM_CONTROLLED=no<br>
+        BOOTPROTO=none<br>
+        MASTER=bond0<br>
+        SLAVE=yes<br>
+        <br>
+        Restart network connection or bring up the bonding interface using ifup
+        bond0<br>
+        <br>
+        view the current status of bonding: cat /proc/net/bonding/bond0<br>
+      </p>
+      <p style="width: 964px;">12. <strong style="color: #941100;">Disk Quotas:</strong></p>
+      <p style="width: 964px;">In Linux, quotas can be implemented to restrict
+        usage of file system. Following are the steps to enable quotas in Linux
+        machine</p>
+      <ul>
+        <li>hard limit is the limit for which linux will not allow beyond that
+          limit. Softlimit only gives warning when limit is reached, but allows
+          you to create files beyond the limit. grace period is the period which
+          allows days to create files once the hard limit is reached.</li>
+        <li>Enable quotas by modifying /etc/fstab file</li>
+        <ul>
+          <li>/dev/VolGroup00/LogVol02 /home&nbsp;&nbsp;&nbsp;&nbsp;
+            ext3&nbsp;&nbsp;&nbsp; defaults,usrquota,grpquota&nbsp; 1 2 </li>
+        </ul>
+        <li>remount the file system using mount -a command</li>
+        <li>create quota database files and generate the disk usage table; use
+          quotacheck command to generate database files.</li>
+        <li>assign quota policies</li>
+        <li>use “quotacheck -cug /home” command where -c is quota files shoud be
+          created for each file system;-u to check user quotas and -g to check
+          for group quotas. If neither of u or g is specified, by default user
+          quota file is created.</li>
+        <li>assign quotas per user using “edquota &lt;username&gt;” command and
+          for group use “edquota -g &lt;groupname&gt;”. this will open a file
+          for editing quotas. edit the limits and save the file. You can change
+          the editor in ~/.bashrc file.</li>
+        <li>grace period for quotas can be set using “edquota -t” command. -u or
+          -g is per user/group, but -t is filesytem wide.</li>
+        <li>quotas can be disabled for all without setting 0 for user/group
+          using command “quotaoff -vaug” and to enable “quotaon -vaug” or for a
+          specific file system, we can use it like, “quotaon -vaug /home”</li>
+        <li>“repquota /home” is the command used to report statistics of quota
+          on /home..you can use -a like repquota -a command to list all file
+          systems and quotas.</li>
+        <li>quotacheck -vaug /home” command can be used when no files are in use
+          to check the accuracy of quotas.</li>
+      </ul>
+      <p style="width: 964px;">13. Performance troubleshooting and tuning:</p>
+    </div>
+    <div style="margin-left: 120px;"> There is no golden rule for
+      troubleshooting performance issues.There are many cause of bottlenecks and
+      following are the common performance bottlenecks.<br>
+      <ul>
+        <li>Buggy Software</li>
+        <li>Disk Usage</li>
+        <li>Memory Usage</li>
+        <li>CPU cycles and </li>
+        <li>Network Bandwidth</li>
+      </ul>
+      To troubleshoot above bottlenecks, we have package called sysstat for
+      debian and redhat. It should be available and service need to be started.<br>
+      <ul>
+        <li>chkconfig sysstat on</li>
+        <li>/etc/init.d/sysstat start</li>
+      </ul>
+      When you start above service, it starts collecting data and then we can
+      use sar -r for memory stats or sar -b for disk stats or sar -A for full
+      report on stats.<br>
+      For irregular performance issues, we can use #iostat -x 5 for disk usage
+      and free and top commands to monitor and troubleshoot memory usage.<br>
+      Examples: sar -b 1 3 =&gt; sar runs for every one second for three times
+      and gives disk statistics and other commands and tools include:<br>
+      <ul>
+        <li>mpstat to check processor and cpu stats ; mpstat -A; mpstat -P all</li>
+        <li>vmstat for virtual memory stats</li>
+        <li>ps command</li>
+        <li>free command</li>
+        <li>top command</li>
+        <li>pmap to display memory map of a process; pmap &lt;pid&gt;; pmap -x
+          &lt;pid&gt; give some additional information</li>
+        <li>netstat</li>
+        <li>lsof</li>
+        <li>* w and uptime commands to know who are logged in</li>
+      </ul>
+      <p>14. <strong style="color: #941100;">What are inodes in Linux</strong></p>
+      <p>An inode is a data structure on a filesystem on Linux and other
+        Unix-like operating systems that stores all the information about a file
+        except its name and its actual data. When a file is created, it is
+        assigned both a name and an inode number, which is an integer that is
+        unique within the filesystem. Both the file names and their
+        corresponding inode numbers are stored as entries in the directory that
+        appears to the user to contain the files. The concept of inodes is
+        particularly important to the recovery of damaged filesystems. When
+        parts of the inode are lost, they appear in the lost+found directory
+        within the partition in which they once existed.<br>
+        <br>
+        The inode entries store metadata about each file, directory or object,
+        but only points to these structures rather than storing the data. Each
+        entry is 128 bytes in size. The metadata contained about each structure
+        can include the following:<br>
+        <br>
+        Inode number<br>
+        Access Control List (ACL)<br>
+        Extended attribute<br>
+        Direct/indirect disk blocks<br>
+        Number of blocks<br>
+        File access, change and modification time<br>
+        File deletion time<br>
+        File generation number<br>
+        File size<br>
+        File type<br>
+        Group<br>
+        Number of links<br>
+        Owner<br>
+        Permissions<br>
+        Status flags<br>
+        <br>
+        Inode structure of a directory consists of a name to inode mapping of
+        files and directories in that directory.In a directory, you can find the
+        inode number corresponding to the files using the command ls -i<br>
+        <br>
+        786727 -rw------- 1 root root 4226530 May 29 13:17 sudo.log<br>
+        786437 -rw-------. 1 root root 32640 Jun 23 20:11 tallylog<br>
+        786440 -rw-rw-r--. 1 root utmp 276096 Jul 20 06:45 wtmp<br>
+        786741 -rw------- 1 root root 9653 Jul 17 09:38 yum.log<br>
+        <br>
+        Similar way, the number of inodes allocated, used and free in a
+        Filesystem can be listed using df -i command</p>
+      <p>15. <strong style="color: #941100;">What is drop cache in Linux and
+          how do you clear it?</strong><br>
+        <br>
+        Cache in Linux memory is where the Kernel stores the information it may
+        need later, as memory is incredible faster than disk.<br>
+        <br>
+        It is great that the Linux Kernel takes care about that.Linux Operating
+        system is very efficient in managing your computer memory, and will
+        automatically free the RAM and drop the cache if some application needs
+        memory.<br>
+        <br>
+        Kernels 2.6.16 and newer provide a mechanism to have the kernel drop the
+        page cache and/or inode and dentry caches on command, which can help
+        free up a lot of memory. Now we can throw away that script that
+        allocated a ton of memory just to get rid of the cache.<br>
+        <br>
+        To free pagecache:<br>
+        <br>
+        # echo 1 &gt; /proc/sys/vm/drop_caches<br>
+        To free dentries and inodes:<br>
+        <br>
+        # echo 2 &gt; /proc/sys/vm/drop_caches<br>
+        To free pagecache, dentries and inodes:<br>
+        <br>
+        echo 3 &gt; /proc/sys/vm/drop_caches<br>
+        This is a non-destructive operation in normal scenarios and will only
+        free things that are completely unused. Dirty objects will continue to
+        be in use until written out to disk and are not freeable. However it is
+        always preferred to run "sync" first to flush useful things out to disk.</p>
+      <p>16. <strong style="color: #941100;">Disk utilization is high and
+          deleted few files, but still usage is high. How to find the files ,
+          those still in use</strong><br>
+        <br>
+        In Linux even if we remove a file from the mounted file system, that
+        will still be in use by some application and for this application, it
+        remains available. Its because file descriptor in /proc filesystem is
+        held open..So if there are such open descriptors to files already
+        removed, space occupied by them considered as used. You find this
+        difference by checking them using the "df" and "du" commands. While df
+        is to show the file system usage, du is to report the file space usage.
+        du works from files while df works at filesystem level, reporting what
+        the kernel says it has available.<br>
+        <br>
+        You can find all unlinked but held open files with:<br>
+        <br>
+        # lsof | grep '(deleted)'<br>
+        <br>
+        This will list the filename which is open with the pid in which it is
+        running. We can kill those Pids and which will stop these process and
+        will recover the disk space responsible for this file.</p>
+      <ul>
+      </ul>
+    </div>
+    <p><br>
+    </p>
+    <div style="margin-left: 40px;"> </div>
+    <div class="site-wrap" style="margin-left: 120px; text-align: left;"><br>
+    </div>
+    <div style="margin-left: 40px;"> </div>
+    <br>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><br>
+    </div>
+    <div class="site-wrap"><br>
+    </div>
+    <a href="#" class="bg-primary py-5 d-block">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md10">
+            <h2 class="text-white">Learn &amp; Learn</h2>
+          </div>
+        </div>
+      </div>
+    </a>
+    <footer class="site-footer">
+      <div class="container" style="margin-top: -85px;">
+        <div class="row">Tags: Linux Interview Questions, Linux questions and
+          answers, Linux interview questions and answers,Linux interview by
+          wipro, linux interview questions by TCS, linux interview questions by
+          Infosys, Linux Interview questions by companies, real time interview
+          questions and answers, crack a linux Interview</div>
+        <div class="row"><br>
+        </div>
+        <div class="row"><br>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p>&nbsp; Copyright ©
+                <script>document.write(new Date().getFullYear());</script> All
+                rights reserved. 2012-2019 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
