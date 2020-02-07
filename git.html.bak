@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>ITJunction-Webdesign|SEO|DigitalMarketing|Training|ITService</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900"
+      rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="site-wrap">
+      <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3"> <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom top-bar py-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-0"> <span class="mr-3"><strong>Phone:</strong> <a href="tel://#">+91
+                    9948124500</a></span> <span><strong>Email:</strong> <a href="#">info@itjunction.in</a></span>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <ul class="social-media">
+                <li><a href="#" class="p-2"><span class="icon-facebook"></span></a><br>
+                </li>
+                <li><a href="#" class="p-2"><span class="icon-twitter"></span></a><br>
+                </li>
+                <li><a href="#" class="p-2"><span class="icon-instagram"></span></a><br>
+                </li>
+                <li><a href="#" class="p-2"><span class="icon-linkedin"></span></a><br>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="site-navbar py-4 bg-white" role="banner">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-11 col-xl-2">
+              <h1 class="mb-0 site-logo" style="margin-left: -5px;"><span style="color: black;"><span
+                    style="color: #ff2600;">IT</span><span
+                    style="color: #009051;">Junction</span></span></h1>
+              <br>
+              <h1 style="width: 738px; margin-left: -9px;">All about Git</h1>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><span style="color: #ff2600;">What
+        is GIT?</span></div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;">GIT is a
+      distributed version control system for tracking changes in source code
+      during any development. Here each developer has their code on their local
+      system. Whenever they want they can push the code into Github or Git
+      Server</div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><br>
+    </div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><span style="color: #ff2600;">What
+        are the areas or stages in GIT?</span><br>
+      1. <span style="color: #942192;">Workspace</span> Area : What ever files
+      we add/create are initially in the Workspace Area.<br>
+      2. <span style="color: #942192;">Staging/Index </span>Area<br>
+      3. <span style="color: #942192;">Local Repository</span></div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><br>
+    </div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;">Initially
+      files when created are in workspace area. To add them to staging we use “
+      <span style="color: #0433ff;">git add -a or git add .</span> Or <span style="color: #0433ff;">git
+        add &lt;filename&gt; </span>“ commands. When the files are in Staging
+      or index area means that they are ready to commit. Once the files are in
+      Staging area, they can be put into local repository using “<span style="color: #0433ff;">git
+        commit &lt;file1&gt; -m “comment about the committee</span>” . So the
+      files are into local repository.</div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><br>
+    </div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><span style="color: #ff2600;">What
+        is a git repository?</span></div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;">Git
+      repository is a folder or directory which is initialized using "git init"
+      command which creates a '.git' sub-directory which has all the elements to
+      track the code changes.</div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><br>
+    </div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><span style="color: #ff2600;">What
+        is git branching?</span></div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;">Series
+      of commits is called a branch. A branch is a collection of directories and
+      files. Default branch is master. When we create a branch from master, all
+      code will be copied to the new branch and there we do required
+      modifications like <span style="color: #0433ff;">feature1</span> and if
+      everything is fine, we can merge it back to master or continue as separate
+      branch.</div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><span style="color: #0433ff;">git
+        branch</span> : this command displays all the branches in alphabetical
+      order.<br>
+      <span style="color: #0433ff;">*</span>&nbsp; before a branch represents
+      current active branch where we are into<br>
+      <span style="color: #0433ff;">git branch</span> &lt;newbranch name” will
+      create a new branch.<br>
+      <span style="color: #0433ff;">git branch -b &lt;newbranch name</span> will
+      create the new branch and also switches to that branch.<br>
+      If we want to merge, we need two branches at least. It will merge all
+      files and directories from source branch to target branch(master in this
+      case). The command is : <span style="color: #0433ff;">git merge feature1</span>.
+      For this <span style="color: #942192;">go to master branch</span> and do
+      the “<span style="color: #0433ff;">git merge feature1</span>” . This
+      merges all files from feature1 branch to the master branch.<br>
+      So to <strong>merge</strong> two branches, go to the target branch(like
+      master) and give the command as git merge &lt;branch to be merged&gt;<br>
+      To <strong>delete</strong> a branch, use “git branch -d &lt;branch
+      name&gt;” from other branch. You shouldn’t be in the same branch when
+      deleting.<br>
+      <span style="color: #0433ff;">git branch -D &lt;branch name&gt;</span>; -D
+      is force deletion of a branch<br>
+      <span style="color: #942192;">Master branch also can be deleted</span>
+      from other branch</div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><span style="color: #ff2600;">Git
+        branch commands:</span></div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;">
+      <table style="border-collapse: collapse" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><span style="color: #ff9300;"><font
+                    style="font: 12.0px 'Helvetica Neue'"
+                    face="Helvetica Neue"
+                    size="3"><u><b>Branching
+                        Commands</b></u></font></span></p>
+            </td>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><span style="color: #ff9300;"><font
+                    style="font: 12.0px 'Helvetica Neue'"
+                    face="Helvetica Neue"
+                    size="3"><u><b>Explanation</b></u></font></span></p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Git
+                  branch</font></p>
+            </td>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Display
+                  all branches in alphabetical order</font></p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Git
+                  branch &lt;new branch&gt;</font></p>
+            </td>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Create
+                  new branch</font></p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Git
+                  checkout -b &lt;new branch&gt;</font></p>
+            </td>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Create
+                  and change to the new branch</font></p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Git
+                  diff &lt;branch1&gt; &lt;branch2&gt;</font></p>
+            </td>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Difference
+                  between branches</font></p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Git
+                  merge &lt;branchname&gt;</font></p>
+            </td>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Merge
+                  into the current branch</font></p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Git
+                  branch -d &lt;branchname&gt;</font></p>
+            </td>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Delete
+                  this branchname</font></p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Git
+                  branch -D &lt;branchname&gt;</font></p>
+            </td>
+            <td style="border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #9a9a9a #9a9a9a #9a9a9a #9a9a9a; padding: 1.0px 5.0px 1.0px 5.0px"
+              valign="top">
+              <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font: 12.0px 'Helvetica Neue'"
+                  face="Helvetica Neue"
+                  size="3">Delete
+                  this branch forcibly</font></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><br>
+    </div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;">SVN and
+      GIT<br>
+      SVN is a centralised repository. Everyone use to connect to central repo
+      and code there. If there is any network issue between server and client,
+      developers cannot do anything using SVN.</div>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><br>
+    </div>
+    <br>
+    <div class="site-wrap" style="margin-left: 80px; text-align: left;"><br>
+    </div>
+    <div class="site-wrap"><br>
+    </div>
+    <a href="#" class="bg-primary py-5 d-block">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md10">
+            <h2 class="text-white">Learn &amp; Learn</h2>
+          </div>
+        </div>
+      </div>
+    </a>
+    <footer class="site-footer">
+      <div class="container" style="margin-top: -85px;">
+        <div class="row">Tags:git course, git for beginners, git tutorial for beginners, git complete reference, git training in hyderabad, git training online, git training,what is git, what is git branching, what is git commit,GitHub,git commands, git download, git tutorial, git bash,git stash,git for windows,git rebase,git login,git clone command</div>
+        <div class="row"><br>
+        </div>
+        <div class="row"><br>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p>&nbsp; Copyright ©
+                <script>document.write(new Date().getFullYear());</script> All
+                rights reserved. 2012-2019 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
