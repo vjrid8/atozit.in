@@ -217,11 +217,16 @@ href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900"
         style="box-sizing: border-box;">
       2.<span class="Apple-converted-space">&nbsp;</span><span
         style="box-sizing: border-box; color: rgb(148, 33, 146);">Staging/Index<span
-          class="Apple-converted-space">&nbsp;</span></span>Area<br
-        style="box-sizing: border-box;">
+          class="Apple-converted-space">&nbsp;</span></span>Area (git
+      add)<br style="box-sizing: border-box;">
       3.<span class="Apple-converted-space">&nbsp;</span><span
         style="box-sizing: border-box; color: rgb(148, 33, 146);">Local
-        Repository</span></div>
+        Repository (git commit -m)<br>
+        4. Remote (git push)<br>
+        <a href="https://atozit.in/images/git_data_flow1.png"><img
+            src="images/git_data_flow1.png" alt="atozit-git-work-flow"
+            width="559" border="0" height="429"></a><br>
+      </span></div>
     <div class="site-wrap" style="box-sizing: border-box; caret-color:
       #4d4d4d; color: #4d4d4d; font-family:
       Quicksand,-apple-system,BlinkMacSystemFont,&quot;Segoe
@@ -1110,15 +1115,15 @@ href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900"
       <br>
       <font color="#ff0000">GIT PUSH ISSUES:</font><br>
       permission Denied to push:<br>
-      1. change git remote using: git remote add origin
-      git@github.com:vjrid8/atozit.in.git<br>
+      1. change git remote using: <b>git remote add origin
+        git@github.com:vjrid8/atozit.in.git</b><br>
       2. If there are any previous wrong git remote URLs, remove them
-      using: git remote rm<br>
-      3. Now generate the key pair on your system using ssh-keygen -t
-      rsa and this will create a key pair like id_rsa and id_rsa.pub in
-      your ~/.ssh folder. copy contents of id_rsa.pub and paste them in
-      the SSH and GPG keys section on your github account by clicking
-      new SSH key.<br>
+      using: <b>git remote rm</b><br>
+      3. Now generate the key pair on your system using <b>ssh-keygen
+        -t rsa</b> and this will create a key pair like id_rsa and
+      id_rsa.pub in your ~/.ssh folder. copy contents of id_rsa.pub and
+      paste them in the SSH and GPG keys section on your github account
+      by clicking new SSH key.<br>
       4. Now you will be able to push the code to github.com<br>
       <br>
       "git remote -v " command displays remote URLS<br>
