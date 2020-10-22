@@ -131,8 +131,13 @@ href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900"
       none; white-space: normal; word-spacing: 0px;
       -moz-text-size-adjust: auto; -webkit-text-stroke-width: 0px;
       background-color: white; text-decoration: none; margin-left:
-      120px; text-align: justify;"><span style="box-sizing: border-box;
-        color: rgb(255, 38, 0);">What is GIT?</span></div>
+      120px; text-align: justify;">
+      <div align="center"><span style="box-sizing: border-box; color:
+          rgb(255, 38, 0);"><img src="images/git-logo.png"
+            alt="git-logo" width="273" height="114"></span><br>
+        <span style="box-sizing: border-box; color: rgb(255, 38, 0);"></span></div>
+      <span style="box-sizing: border-box; color: rgb(255, 38, 0);">What
+        is GIT?</span></div>
     <div class="site-wrap" style="box-sizing: border-box; caret-color:
       #4d4d4d; color: #4d4d4d; font-family:
       Quicksand,-apple-system,BlinkMacSystemFont,&quot;Segoe
@@ -599,8 +604,13 @@ href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900"
       120px; text-align: justify;"><span style="box-sizing: border-box;
         color: rgb(255, 38, 0);">GIT Commands:</span><br
         style="box-sizing: border-box;">
-      * git init : to initialise a git repo<br style="box-sizing:
-        border-box;">
+      * git init : to initialise a git repo<br>
+      * git clone: To clone the exact copy of a repository. eg: <b>git
+        clone https://github.com/vjrid8/repo.git</b> will create a
+      directory with name repo in your system and fetches all files.<br>
+      * <b>git clone &lt;remote repo path&gt; &lt;custom name&gt; </b>will
+      create a directory with name "custom name" in your local system
+      and fetched files into it.<br style="box-sizing: border-box;">
       * git config --global user.name “your-user-name”<br
         style="box-sizing: border-box;">
       * git config --global user.mail “xyz@mail.com”<br
@@ -621,10 +631,16 @@ href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900"
       that commit<br style="box-sizing: border-box;">
       * git status pop<br style="box-sizing: border-box;">
       * git add -f &lt;filename&gt; to add a file to index area even
-      though its ignored with “.gitignore” file<br style="box-sizing:
-        border-box;">
-      * git checkout &lt;branchname&gt; will change the branch into the
-      given branch name<br style="box-sizing: border-box;">
+      though its ignored with “.gitignore” file<br>
+      * git add will add files to staging. to undo this or unstage
+      files, use <b>git rm --cached &lt;file&gt;<br>
+        * </b>Suppose we added files to staging. Theses files will be
+      in unmodified state. now again you modified the, they are in
+      modified state. if you again git add &lt;that file&gt; it will be
+      in staging. to undo this, use git restore --staged &lt;file&gt;<br
+        style="box-sizing: border-box;">
+      <b></b> * git checkout &lt;branchname&gt; will change the branch
+      into the given branch name<br style="box-sizing: border-box;">
       * git branch will display in which branch we are into<br
         style="box-sizing: border-box;">
       * git log —oneline will display git commits in one liner.<br
@@ -632,7 +648,10 @@ href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900"
       * git log -5<br style="box-sizing: border-box;">
       * git log -1 to display about the last commit<br
         style="box-sizing: border-box;">
-      * git show sha1code<br style="box-sizing: border-box;">
+      * git show sha1code<br>
+      * git remote add origin &lt;repo URL&gt;<br>
+      * git push -u origin master =&gt; -u is upstream; master is the
+      branch<br style="box-sizing: border-box;">
       <br style="box-sizing: border-box;">
       Earlier we have several version control systems in place but none
       of them is as famous as SVN or GIT.<br style="box-sizing:
@@ -1045,7 +1064,7 @@ href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900"
       ===================================<br style="box-sizing:
         border-box;">
       undo staging..<br style="box-sizing: border-box;">
-      git reset HEAD &lt;filename.to unstage.<br style="box-sizing:
+      git reset HEAD &lt;filename&gt; to unstage.<br style="box-sizing:
         border-box;">
       <br style="box-sizing: border-box;">
       <span style="box-sizing: border-box; color: rgb(255, 38, 0);">Undoing
