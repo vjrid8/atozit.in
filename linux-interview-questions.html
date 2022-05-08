@@ -120,6 +120,9 @@
         <li>getenforce and setenforce are selinux commands to get/set selinux status</li>
         <li>semanage -user -l is the command to list selinux users</li>
         <li>Query a thirdparty owned package using rpm -qi pkgname</li>
+        <li>Query which package owns the file: rpm -qf /etc/host</li>
+        <li>Query the depending packages for a rpm: rpm -qPR <package.rpm> </li>
+        
         <li>To reboot a linux host, we can use commands: reboot or shutdown -r or init 6</li>
         <li> Identify the existing disks: fdisk -l 2>/dev/null | egrep ‘^disk’ | egrep -v ‘dm-|type|identifier’
              Identify No.of HBA Adapters: systool -c fc_host -v [OR] ls /sys/class/fc_host
@@ -153,7 +156,10 @@
           Soft link can be created for files and directories. When original file
           is deleted when it has hard link, the file is intact. but when
           softlink is created and original file is deleted, it will be deleted
-          and cannot be retrieved.</li>
+          and cannot be retrieved. Hard link are created using ln <source> <destination>.
+          Hard Links will have same inode number(ls -i <filename> . LS command will show no.of links
+          Even we delete one hardlink, the other links will point to same indoe and file will be intact. 
+          Hard links will span across the file system. i.e we need to create hard link on the same file system</li>
         <li>we can install mutt to send attachments from the commandline using
           smtp.</li>
         <li>Process states from the output of top command are: RUNNING(R),
