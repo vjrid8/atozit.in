@@ -121,10 +121,13 @@
         <li>semanage -user -l is the command to list selinux users</li>
         <li>Query a thirdparty owned package using rpm -qi pkgname</li>
         <li>To reboot a linux host, we can use commands: reboot or shutdown -r or init 6</li>
-        <li></li>
+        <li> Identify the existing disks: fdisk -l 2>/dev/null | egrep ‘^disk’ | egrep -v ‘dm-|type|identifier’
+             Identify No.of HBA Adapters: systool -c fc_host -v [OR] ls /sys/class/fc_host
+             Scan the LUNS: echo “1” > /sys/class/fc_host/host0/issue_lip
+             echo “- – -” > /sys/class/scsi_host/host0/scan </li>
         <li>Find files which have been accessed within last 30 days: find /
           -type f -atime -30 &gt; December.files </li>
-        <li>8. Audit logs-AUDITCTL,AUSEARCH,aureport;yum install audit;ntsysv is
+        <li>Audit logs-AUDITCTL,AUSEARCH,aureport;yum install audit;ntsysv is
           the command to autostart audit during booting.<br>
           Auditctl -w /etc/passwd -p war -k password-file</li>
         <li>ausearch -f &lt;filename&gt; is the command to get the details of
