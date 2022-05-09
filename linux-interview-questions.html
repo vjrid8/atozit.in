@@ -726,6 +726,25 @@
         This will list the filename which is open with the pid in which it is
         running. We can kill those Pids and which will stop these process and
         will recover the disk space responsible for this file.</p>
+      <p>17. <strong style="color: #941100;">What is /etc/skel directory or 
+        how do you define default home directory and other files structure of 
+        home dir for any user </strong><br>
+        <br>
+        In the Linux, we have a file /etc/default/useradd which defines the /home
+        and /etc/skel locations. /etc/skel is used to initiate home directory
+        when a user is first created. default permissions for this are 751.<br>
+        # cat /etc/default/useradd
+        # useradd defaults file
+        GROUP=100
+        HOME=/home
+        INACTIVE=-1
+        EXPIRE=
+        SHELL=/bin/bash
+        SKEL=/etc/skel
+        CREATE_MAIL_SPOOL=yes
+        <br>
+        
+        
       <ul>
       </ul>
     </div>
@@ -765,7 +784,7 @@
             <div class="border-top pt-5">
               <p>&nbsp; Copyright ©
                 <script>document.write(new Date().getFullYear());</script> All
-                rights reserved. 2012-2019 </p>
+                rights reserved. 2012-2022 </p>
             </div>
           </div>
         </div>
